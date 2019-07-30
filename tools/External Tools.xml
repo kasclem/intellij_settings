@@ -6,4 +6,11 @@
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
   </tool>
+  <tool name="run env" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="source" />
+      <option name="PARAMETERS" value="test-env/bin/activate" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Documents/Werewolf/test" />
+    </exec>
+  </tool>
 </toolSet>
