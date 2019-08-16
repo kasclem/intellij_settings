@@ -11,4 +11,9 @@
       <option name="LUA_FUNCTION" value="true" />
     </context>
   </template>
+  <template name="busted_it_test" value="it(&quot;has tests&quot;, function()&#10;    local obj1 = { test = &quot;yes&quot; }&#10;    local obj2 = { test = &quot;yes&quot; }&#10;    assert.same(obj1, obj2)&#10;end)" description="sample it block" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
 </templateSet>
