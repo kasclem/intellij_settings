@@ -66,6 +66,9 @@
     <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
   <action id="RunDashboard.CopyConfiguration" />
+  <action id="SaveAsTemplate">
+    <keyboard-shortcut first-keystroke="alt i" />
+  </action>
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="ctrl alt f" />
   </action>

@@ -1,0 +1,14 @@
+<templateSet group="Lua">
+  <template name="todo" value="--TODO $DATE$ $USER$: $END$" description="Insert TODO comment with the current date and username" toReformat="false" toShortenFQNames="true">
+    <variable name="DATE" expression="date()" defaultValue="" alwaysStopAt="false" />
+    <variable name="USER" expression="user()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="LUA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="&lt;abbreviation&gt;" value="teardown(function()&#10;    print(&quot;teardown&quot;)&#10;end)" description="Teardown" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="LUA_FUNCTION" value="true" />
+    </context>
+  </template>
+</templateSet>
