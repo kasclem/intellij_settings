@@ -1,5 +1,5 @@
 <templateSet group="user">
-  <template name="string_format" value="string.format([[$INPUT$]], )" toReformat="true" toShortenFQNames="true">
+  <template name="string_format" value="string.format([[$INPUT$]], )" description="" toReformat="true" toShortenFQNames="true">
     <variable name="INPUT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="LUA_CODE" value="true" />
