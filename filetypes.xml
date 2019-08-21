@@ -4,7 +4,9 @@
     <extensionMap>
       <mapping pattern="scratch_tarantool.lua" type="PLAIN_TEXT" />
       <mapping pattern="mock_utils.py" type="PLAIN_TEXT" />
+      <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping ext="ttf" type="PLAIN_TEXT" />
+      <mapping ext="example" type="PLAIN_TEXT" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
