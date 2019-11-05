@@ -20,11 +20,18 @@
       <option name="WORKING_DIRECTORY" value="$USER_HOME$/Documents/Werewolf/tarantool-template/tnt" />
     </exec>
   </tool>
-  <tool name="scratch" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
+  <tool name="scratch" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="true" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="/usr/local/bin/tarantool" />
       <option name="PARAMETERS" value="$USER_HOME$/Documents/Werewolf/tarantool-template/scratch/scratch.lua" />
       <option name="WORKING_DIRECTORY" value="$USER_HOME$/Documents/Werewolf/tarantool-template" />
+    </exec>
+  </tool>
+  <tool name="tarantool_run" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$USER_HOME$/Documents/Dynameyes/cryptox-wallet-service/runner.lua" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Documents/Dynameyes/cryptox-wallet-service" />
     </exec>
   </tool>
 </toolSet>
