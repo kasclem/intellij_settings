@@ -71,6 +71,9 @@
   </action>
   <action id="SendEOF" />
   <action id="ShowFilterPopup" />
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="alt p" />
+  </action>
   <action id="StepOver">
     <keyboard-shortcut first-keystroke="f8" />
     <keyboard-shortcut first-keystroke="ctrl alt up" />
