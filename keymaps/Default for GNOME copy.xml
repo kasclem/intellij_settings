@@ -71,9 +71,6 @@
   </action>
   <action id="SendEOF" />
   <action id="ShowFilterPopup" />
-  <action id="SplitVertically">
-    <keyboard-shortcut first-keystroke="alt p" />
-  </action>
   <action id="StepOver">
     <keyboard-shortcut first-keystroke="f8" />
     <keyboard-shortcut first-keystroke="ctrl alt up" />
@@ -83,9 +80,6 @@
     <keyboard-shortcut first-keystroke="shift alt s" />
   </action>
   <action id="Switcher" />
-  <action id="ToggleSideMode">
-    <keyboard-shortcut first-keystroke="alt i" />
-  </action>
   <action id="ViewBreakpoints">
     <keyboard-shortcut first-keystroke="shift ctrl f8" />
     <keyboard-shortcut first-keystroke="ctrl b" />
