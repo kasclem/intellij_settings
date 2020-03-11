@@ -92,5 +92,8 @@
   </action>
   <action id="XDebugger.CopyWatch" />
   <action id="context.save" />
+  <action id="lua.LuaCheck">
+    <keyboard-shortcut first-keystroke="ctrl semicolon" />
+  </action>
   <action id="openAssertEqualsDiff" />
 </keymap>
