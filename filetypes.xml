@@ -5,6 +5,7 @@
       <mapping pattern="mock_utils.py" type="PLAIN_TEXT" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern="scratch_tarantool.lua" type="PLAIN_TEXT" />
+      <mapping pattern="npmRunner.sh" type="PLAIN_TEXT" />
       <mapping ext="template" type="PLAIN_TEXT" />
       <mapping ext="example" type="PLAIN_TEXT" />
       <mapping ext="ttf" type="PLAIN_TEXT" />
