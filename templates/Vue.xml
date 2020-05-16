@@ -1,5 +1,5 @@
 <templateSet group="Vue">
-  <template name="vBoiler" value="&lt;template&gt;&#10;&lt;/template&gt;&#10;&#10;&lt;script&gt;&#10;    export default {&#10;        data(){&#10;            return {}&#10;        }&#10;    }&#10;&lt;/script&gt;&#10;&#10;&lt;style&gt;&#10;&lt;/style&gt;" toReformat="true" toShortenFQNames="true">
+  <template name="vBoiler" value="&lt;template&gt;&#10;&lt;/template&gt;&#10;&#10;&lt;script&gt;&#10;    export default {&#10;        data(){&#10;            return {}&#10;        }&#10;    }&#10;&lt;/script&gt;&#10;&#10;&lt;style&gt;&#10;&lt;/style&gt;" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="HTML" value="false" />
       <option name="JSON" value="false" />
